@@ -40,6 +40,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnMateriales = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelContenedor = new System.Windows.Forms.Panel();
             this.PanelOrizontal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -172,6 +173,7 @@
             this.btnMateriales.TabIndex = 3;
             this.btnMateriales.Text = "MaterialeS";
             this.btnMateriales.UseVisualStyleBackColor = false;
+            this.btnMateriales.Click += new System.EventHandler(this.btnMateriales_Click);
             // 
             // pictureBox1
             // 
@@ -183,11 +185,20 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Location = new System.Drawing.Point(162, 45);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(1159, 591);
+            this.panelContenedor.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1321, 636);
+            this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.PanelVertical);
             this.Controls.Add(this.PanelOrizontal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -218,6 +229,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnVentas;
+        private System.Windows.Forms.Panel panelContenedor;
     }
 }
 
