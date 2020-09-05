@@ -170,7 +170,7 @@
             this.btnMateriales.Name = "btnMateriales";
             this.btnMateriales.Size = new System.Drawing.Size(162, 35);
             this.btnMateriales.TabIndex = 3;
-            this.btnMateriales.Text = "Materiales";
+            this.btnMateriales.Text = "MaterialeS";
             this.btnMateriales.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
