@@ -74,7 +74,7 @@ namespace Interfaz
 
         private void btnMateriales_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Form());
+            AbrirFormEnPanel(new Form2());
         }
     }
 }
